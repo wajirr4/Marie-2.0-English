@@ -2,12 +2,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "5416296821:AAFfHmVs76xg2YUJ14f5gAH1eSVFZ-tPl40"
+    API_KEY = "5397538082:AAFyZdcyT-C8SxVaybpNZcpBuxGfBQvtoVg"
     OWNER_ID = "5136746907" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "wajirrr"
+    OWNER_USERNAME = "sadrobo"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://infodot:4455Hasan@137.184.79.64:5432/tgbot'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://fzbxklpm:UJDo18ordGuj6jQQvaMR6NdBzl-jpFH_@jelani.db.elephantsql.com/fzbxklpm'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
